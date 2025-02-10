@@ -59,9 +59,9 @@ const ContactUs = () => {
         <div className="contact-form">
           <h2>Send Us a Message</h2>
           <form>
-            <input type="text" placeholder="Your Name" id="name" required onChange={handleChange}/>
-            <input type="email" placeholder="Your Email" id="email" required  onChange={handleChange}/>
-            <textarea placeholder="Your Message" id="message" required onChange={handleChange}></textarea>
+            <input type="text" placeholder="Your Name" name="name" required onChange={handleChange}/>
+            <input type="email" placeholder="Your Email" name="email" required  onChange={handleChange}/>
+            <textarea placeholder="Your Message" name="message" required onChange={handleChange}></textarea>
             <button type="submit" onClick={handleSubmit}>Send Message</button>
           </form>
         </div>
