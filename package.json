@@ -1,5 +1,6 @@
 {
   "name": "deqcodelandingpage",
+  "homepage": "",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     "file-saver": "^2.0.5",
@@ -35,11 +38,13 @@
     "tailwindcss": "^4.0.5",
     "vite": "^6.1.0"
   },
-  "production": [
+  "browserslist":{
+    "production": [
       "chrome >= 67",
       "edge >= 79",
       "firefox >= 68",
       "opera >= 54",
       "safari >= 14" 
- ]
+    ]
+  }
 }
