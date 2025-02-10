@@ -34,5 +34,12 @@
     "postcss": "^8.5.1",
     "tailwindcss": "^4.0.5",
     "vite": "^6.1.0"
-  }
+  },
+  "production": [
+      "chrome >= 67",
+      "edge >= 79",
+      "firefox >= 68",
+      "opera >= 54",
+      "safari >= 14" 
+ ]
 }
