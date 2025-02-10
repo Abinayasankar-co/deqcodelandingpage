@@ -1,3 +1,5 @@
+import AboutUsurl from "../assets/images/about-us.jpeg";
+
 const AboutUs = () => {
   return (
     <section id="about" className="about-section">
@@ -20,7 +22,7 @@ const AboutUs = () => {
         
         {/* Right Side: Image */}
         <div className="about-image">
-          <img src="/src/assets/images/about-us.jpeg" alt="About Us" />
+          <img src={AboutUsurl} alt="About Us" />
         </div>
       </div>
       
