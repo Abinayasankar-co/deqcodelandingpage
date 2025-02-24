@@ -1,5 +1,4 @@
 // src/components/FounderPortal.jsx
-import React from "react";
 import founder1 from "../assets/images/founder1.png";
 import founder2 from "../assets/images/founder2.jpg";
 

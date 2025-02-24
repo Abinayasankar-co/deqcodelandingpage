@@ -46,12 +46,12 @@ const ContactUs = () => {
           <p><strong>Phone:</strong>+91 6382353894</p>
           <p><strong>Address:</strong>Surapet, Ambattur, Chennai</p>
           <div className="map-container">
-            <iframe
-              className="map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093757!2d144.95373631549584!3d-37.81627974202119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df0f6e9d7%3A0xa07e48f6f67f23d7!2sMelbourne%20CBD%2C%20Victoria!5e0!3m2!1sen!2sau!4v1633147340649!5m2!1sen!2sau"
-              allowFullScreen=""
-              loading="lazy"
-            ></iframe>
+          <iframe
+            className="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.279091091091!2d80.188267!3d13.1445059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5261f1f1f1f1f1%3A0x2b1e1e1e1e1e1e1e!2sVelammal%20Engineering%20College!5e0!3m2!1sen!2sin!4v1633147340649!5m2!1sen!2sin"
+            allowFullScreen=""
+            loading="lazy"
+          ></iframe>
           </div>
         </div>
         

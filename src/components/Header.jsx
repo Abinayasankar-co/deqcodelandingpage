@@ -9,6 +9,8 @@ const Header = () => {
           <li><a href="#about">About</a></li>
           <li><a href="#founders">Founders</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="#demo">Demo Video</a></li>
+          <li><a href="#waitlist">Join Waitlist</a></li>
         </ul>
       </nav>
     </header>

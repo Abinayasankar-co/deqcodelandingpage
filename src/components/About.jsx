@@ -1,5 +1,4 @@
 import AboutUsurl from "../assets/images/about-us.jpeg";
-
 const AboutUs = () => {
   return (
     <section id="about" className="about-section">
@@ -7,25 +6,27 @@ const AboutUs = () => {
         {/* Left Side: About Content */}
         <div className="about-content">
           <h2>About Us</h2>
-          <p>
-            We are a technology-driven company focused on innovation and excellence.
-            Our mission is to provide high-quality solutions that empower businesses
-            to achieve their goals. With a team of experienced professionals, we strive
-            to deliver cutting-edge technology and superior customer service.
-          </p>
-          <p>
-            Our expertise spans various domains, including artificial intelligence,
-            machine learning, software development, and cloud computing. We believe
-            in the power of technology to transform industries and improve lives.
-          </p>
+          <ul>
+            <li>
+              At Deqcode (currently under registration), we are on a mission to revolutionize quantum computing by
+              developing AI-powered tools that simplify the creation and consistent maintenance of quantum circuits.
+              Our solutions empower researchers and developers to optimize and build quantum circuits effectively and efficiently.
+            </li>
+            <li>
+              Our product supports companies working on Quantum Processing Units (QPUs), enabling them to design circuits without time constraints, boosting productivity, and enhancing innovation.
+            </li>
+            <li>
+              With a clear vision for scaling quantum computing advancements, our Minimum Viable Product (MVP) demonstrates the practical potential of our technology.
+              We are committed to transforming this solution into a full-fledged commercial product that drives the next wave of breakthroughs in quantum computing.
+            </li>
+          </ul>
         </div>
-        
+
         {/* Right Side: Image */}
         <div className="about-image">
           <img src={AboutUsurl} alt="About Us" />
         </div>
       </div>
-      
     </section>
   );
 };
