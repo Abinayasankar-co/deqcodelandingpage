@@ -6,14 +6,14 @@ const founders = [
   {
     id: 1,
     name: "Chockalingam T",
-    role: "Founder & CEO",
+    role: "Co-Founders",
     image: founder1,
     linkedin: "https://www.linkedin.com/in/chockalingam1947/"
   },
   {
     id: 2,
     name: "Abinayasankar M",
-    role: "Co-Founder & CTO",
+    role: "Co-Founders",
     image: founder2,
     linkedin: "https://www.linkedin.com/in/abinayasankar-m-a3b590235/"
   }

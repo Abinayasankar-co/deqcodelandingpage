@@ -2,8 +2,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import quantum1 from "/src/assets/images/quantum1.png";
-import quantum2 from "/src/assets/images/quantum2.jpg";
-import quantum3 from "/src/assets/images/quantum3.jpg";
+import quantum4 from "/src/assets/images/QuantumCircuit.jpg";
 
 
 const HeroSection = () => {
@@ -23,13 +22,10 @@ const HeroSection = () => {
     <div className="hero-container">
       <Slider {...settings}>
         <div>
-          <img src={quantum1} alt="Quantum Slide 1" className="hero-image" />
+          <img src={quantum4} alt="Quantum Slide 1" className="hero-image" />
         </div>
         <div>
-          <img src={quantum2} alt="Quantum Slide 2" className="hero-image" />
-        </div>
-        <div>
-          <img src={quantum3} alt="Quantum Slide 3" className="hero-image" />
+          <img src={quantum1} alt="Quantum Slide 2" className="hero-image" />
         </div>
       </Slider>
       <div className="hero-text">
